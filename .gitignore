@@ -32,7 +32,9 @@
 *.app
 
 # Build files
-bin/CMake*
-bin/Makefile
+bin/CMakeFiles
+bin/CMakeCache.txt
+bin/SpaceBois
+bin/cmake*
 
 .*
