@@ -22,7 +22,7 @@ SBWindow::SBWindow(std::string title, SBWindow::WindowSize dims)
     glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
     glfwWindowHint(GLFW_RESIZABLE, GL_FALSE);
 
-    m_glfwWindow.reset(glfwCreateWindow(1000, 1000, m_title.c_str(), nullptr, nullptr));
+    m_glfwWindow.reset(glfwCreateWindow(m_dims.width, m_dims.height, m_title.c_str(), nullptr, nullptr));
     glfwSetWindowUserPointer(m_glfwWindow.get(), this);
     glfwSetKeyCallback(m_glfwWindow.get(), keyCallback);
 
