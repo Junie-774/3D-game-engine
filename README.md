@@ -23,13 +23,11 @@ Change GLX_nvidia to your computer's OpenGL driver library. this is usually foun
 
 2. Set up build using cmake
 
-`cd SpaceBois`
+`cd SpaceBois/bin`
 
-`cmake bin`
+`cmake ..`
 
 3. Compile the project
-
-`cd bin`
 
 `make`
 
