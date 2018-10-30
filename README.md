@@ -17,21 +17,22 @@ This is linux only, sorry if you're on another platform and want to use this
 
 1. Download the source, and edit CMakelists.txt, on the line:
 
-`target_link_libraries(${PROJECT_NAME} GLX_nvidia)
+`target_link_libraries(${PROJECT_NAME} GLX_nvidia)`
 	
 Change GLX_nvidia to your computer's OpenGL driver library. this is usually found in /usr/lib/
 
 2. Set up build using cmake
 
-`cd SpaceBois
-`cmake bin
+`cd SpaceBois`
+
+`cmake bin`
 
 3. Compile the project
 
-`cd bin
-`make
+`cd bin`
+`make`
 
 4. Run the executable in cmake-build-debug!
 
-` ./SpaceBois
+` ./SpaceBois`
 
