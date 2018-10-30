@@ -37,3 +37,8 @@ Change GLX_nvidia to your computer's OpenGL driver library. this is usually foun
 
 ` ./SpaceBois`
 
+# Images
+![](images/img1.png)
+
+![](images/img2.png)
+
