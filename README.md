@@ -30,6 +30,7 @@ Change GLX_nvidia to your computer's OpenGL driver library. this is usually foun
 3. Compile the project
 
 `cd bin`
+
 `make`
 
 4. Run the executable in cmake-build-debug!
